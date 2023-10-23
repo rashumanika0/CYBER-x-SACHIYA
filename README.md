@@ -1,7 +1,7 @@
 ![cheemspic](https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA/assets/148566818/74fc51ee-e455-4f38-9f41-b6cce7aa36b0)
 
 
-https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA/assets/148566818/37d04ddc-80f2-4a18-84f9-0c105b88ea4f
+
 
 - [`3rd GC`](https://chat.whatsapp.com/KMymhLdGcjPHihOkrfHW7q)
 
