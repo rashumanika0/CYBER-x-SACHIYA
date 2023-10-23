@@ -1489,12 +1489,13 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
-            xeonezy = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
-│└────────────┈ ⳹
-│
+            xeonezy = `┌─❊
+│ *හලො කොහොමද ඉතින්* 👋 
+└┬❊  ${pushname} 
+┌┤❊  ${xeonytimewisher} 🪀
+│└───────────────┈ ❊
+│𝘊𝘠𝘉𝘌𝘙-𝘗𝘈𝘕𝘋𝘈-𝘔𝘋
+│───────────────── ❊
 └─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -1508,34 +1509,31 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 └─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
 │𝗡𝗮𝗺𝗲 : ${pushname}
 │𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
-│
 └─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗧𝗶??𝗲 : ${xtime}
 │𝗗𝗮𝘁𝗲 : ${xdate}
-└┬────────────┈ ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
-┌└─────────────┈ ⳹
-│❏.allmenu
-│❏.downloadmenu
-│❏.funmenu
-│❏.aimenu
-│❏.groupmenu
-│❏.ownermenu
-│❏.photooxymenu
-│❏.textpromenu
-│❏.ephoto360menu
-│❏.animemenu
-│❏.nsfwmenu
-│❏.randomphotomenu
-│❏.randomvideomenu
-│❏.stickermenu
-│❏.databasemenu
-│❏.stalkermenu
-│❏.bugmenu
-│❏.othermenu
-└─────────────────┈ ⳹`
+└┬────────────┈  ❊
+   │❊  Please Type The *MENU*
+   │❊  Given *BELOW*
+┌└─────────────┈ ❊
+│❊.allmenu
+│❊.downloadmenu
+│❊.funmenu
+│❊.aimenu
+│❊.groupmenu
+│❊.ownermenu
+│❊.photooxymenu
+│❊.textpromenu
+│❊.ephoto360menu
+│❊.animemenu
+│❊.nsfwmenu
+│❊.randomphotomenu
+│❊.randomvideomenu
+│❊.stickermenu
+│❊.databasemenu
+│❊.stalkermenu
+│❊.bugmenu
+│❊.othermenu
+└─────────────────┈ ❊`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
