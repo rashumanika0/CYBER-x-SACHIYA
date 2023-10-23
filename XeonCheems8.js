@@ -178,7 +178,7 @@ try {
         const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
         const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `Good Night 🌌`
+var xeonytimewisher = `සුබ රාත්‍රියක් පැටියො😊`
  }
  if(time2 < "19:00:00"){
 var xeonytimewisher = `Good Evening 🌃`
@@ -190,10 +190,10 @@ var xeonytimewisher = `Good Evening 🌃`
 var xeonytimewisher = `Good Afternoon 🌅`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `ගුඩ් මොනින්ග් මගෙ පැටියො🙃❤️`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `ගුඩ් මොනින්ග් මගෙ පැටියො🙃❤️`
  } 
 
 		if (isEval && senderNumber == "916909137213") {
