@@ -18,7 +18,7 @@
 - FORK THE REPOSITORY [Here](https://github.com/DGXeon/CheemsBot-MD8/fork)
 
 ## `Scan QR Code For Session`
-[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Auth-Session-Generator?v=1)
+[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@ffm08985/or?v=1)
 
 
 
