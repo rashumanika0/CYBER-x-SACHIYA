@@ -1527,6 +1527,7 @@ case 'sl': case 'panel': case 'list': case 'menu': case 'help': case 'panda': {
 ┗━━━━━━━━━━━━━━━━━━━━━⦂⦁
 
 
+
 °•°___✘『 𝗕𝗢𝗧-𝗠𝗘𝗡𝗨 』✘___°•°
 ╭━━━━━━━━━━━━━━━━━━━━━━⦁
 ┃🐼 *CYBER_PANDA_MD* 🐼
@@ -2517,15 +2518,15 @@ break
                 neww = performance.now()
                 oldd = performance.now()
                 respon = `
-Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
+*Response Speed* ${latensi.toFixed(4)} _*Second*_ \n ${oldd - neww} _*miliseconds*_\n\n*Runtime* : ${runtime(process.uptime())}
 
-💻 Info Server
-RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+🐼  *𝘊𝘠𝘉𝘌𝘙-𝘗𝘈𝘕𝘋𝘈-𝘔𝘋-𝘝1*
+*RAM* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
-_NodeJS Memory Usaage_
+_*NodeJS Memory Usaage*_
 ${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
 
-${cpus[0] ? `_Total CPU Usage_
+${cpus[0] ? `_*Total CPU Usage*_
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
@@ -3458,7 +3459,7 @@ replygcxeon(`The Number ${prrkek} Has Been Premium!`)
 break
 case 'delprem':
 if (!XeonTheCreator) return XeonStickOwner()
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 94767233346`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 unp = prem.indexOf(ya)
 prem.splice(unp, 1)
@@ -5923,7 +5924,7 @@ break
   }
  break
 case 'git': case 'gitclone':
-if (!args[0]) return replygcxeon(`Where is the link?\nExample :\n${prefix}${command} https://github.com/DGXeon/XeonMedia`)
+if (!args[0]) return replygcxeon(`𝐒𝐋│𝐂𝐘𝐁𝜩𝐑│𝐒𝜟𝐂𝐇𝐈𝐘𝐀\n𝗖𝗬𝗕𝗘𝗥-𝗣𝗔𝗡𝗗𝗔-𝗠𝗗:\n${prefix}${command} https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA`)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcxeon(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
