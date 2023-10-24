@@ -21,8 +21,8 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['94704274987'] //ur owner number
-global.ownernomer = "94704274987" //ur owner number2
+global.owner = ['+94767233346'] //ur owner number
+global.ownernomer = "+94767233346" //ur owner number2
 global.ownername = "SACHIYA" //ur owner name
 global.ytname = "YT: SACHIYA" //ur yt chanel name
 global.socialm = "GitHub: https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA" //ur github or insta name
@@ -30,19 +30,19 @@ global.location = "SRI LANKA" //ur location
 
 //new
 global.botname = "ＣＹＢＥＲ-ＰＡＮＤＡ-ＭＤ"
-global.ownernumber = '94704274987'
+global.ownernumber = '+94767233346'
 global.ownername = 'SACHIYA'
-global.ownerNumber = ["94704274987@s.whatsapp.net"]
+global.ownerNumber = ["+94767233346@s.whatsapp.net"]
 global.ownerweb = "https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA"
 global.websitex = "https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA"
 global.wagc = "https://chat.whatsapp.com/EOFF9sbXsfhF9Q8RqEz0ZK"
 global.themeemoji = '🧚'
-global.wm = "Xeon Bot Inc."
+global.wm = " Bot Inc."
 global.botscript = 'https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA' //script link
 global.packname = "ＣＹＢＥＲ-ＰＡＮＤＡ-ＭＤ"
 global.author = "SACHIYA\n\n"
-global.creator = "94704274987@s.whatsapp.net"
-global.prefa = ['','!','.','#','&']
+global.creator = "+94767233346@s.whatsapp.net"
+global.prefa = ['❤️','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
 
