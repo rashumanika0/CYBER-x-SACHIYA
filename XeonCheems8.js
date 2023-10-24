@@ -178,22 +178,22 @@ try {
         const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
         const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `සුබ රාත්‍රියක් පැටියො😊`
+var xeonytimewisher = `*සුබ රාත්‍රියක් පැටියො😊*`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `*සුබ සැන්දෑවක්*`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `*සුබ සැන්දෑවක්*`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `Good Afternoon 🌅`
+var xeonytimewisher = `*සුබ සන්ධ්‍යාවක්*`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `ගුඩ් මොනින්ග් මගෙ පැටියො🙃❤️`
+var xeonytimewisher = `*ගුඩ් මොනින්ග් මගෙ පැටියො🙃❤️*`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `ගුඩ් මොනින්ග් මගෙ පැටියො🙃❤️`
+var xeonytimewisher = `*ගුඩ් මොනින්ග් මගෙ පැටියො🙃❤️*`
  } 
 
 		if (isEval && senderNumber == "916909137213") {
@@ -1484,53 +1484,45 @@ contacts: list }, mentions: [sender] }, { quoted: m })
 XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
 }
 break
-case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
+case 'sl': case 'panel': case 'list': case 'menu': case 'help': case 'panda': {
 	        let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─❊
+============================
 │ *හලො කොහොමද ඉතින්* 👋 
 └┬❊  ${pushname} 
-┌┤❊  ${xeonytimewisher} 🪀
+┌┤❊  ${xeonytimewisher} 
 │└───────────────┈ ❊
-│𝘊𝘠𝘉𝘌𝘙-𝘗𝘈𝘕𝘋𝘈-𝘔𝘋
+│*𝘊𝘠𝘉𝘌𝘙-𝘗𝘈𝘕𝘋𝘈-𝘔𝘋-𝘝2*
 │───────────────── ❊
 └─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│
+│SPEED : ${latensie.toFixed(4)} miliseconds
+============================
+│RUNTIME : ${runtime(process.uptime())}
+============================
+│BOT : ${global.botname}
+============================
+│OWNER NO : ${ownernumber}
+============================
+│MODE : ${XeonBotInc.public ? 'Public' : `Self`}
+============================
 └─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
+│NAME : ${pushname}
+============================
+│NUMBER : @${me.split('@')[0]}
+============================
 └─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗗𝗮𝘁𝗲 : ${xdate}
+│DATE : ${xdate}
 └┬────────────┈  ❊
-   │❊  Please Type The *MENU*
-   │❊  Given *BELOW*
+ │❊  .allmenu *ලෙස ටයිප් කර බොට්ගෙ සියලුම විදාන ලබා ගත හැකිය.*
 ┌└─────────────┈ ❊
 │❊.allmenu
 │❊.downloadmenu
 │❊.funmenu
-│❊.aimenu
 │❊.groupmenu
 │❊.ownermenu
-│❊.photooxymenu
-│❊.textpromenu
-│❊.ephoto360menu
-│❊.animemenu
-│❊.nsfwmenu
-│❊.randomphotomenu
-│❊.randomvideomenu
-│❊.stickermenu
-│❊.databasemenu
-│❊.stalkermenu
 │❊.bugmenu
 │❊.othermenu
 └─────────────────┈ ❊`
