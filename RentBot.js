@@ -1,3 +1,8 @@
+//🐼       𝐒𝐋│𝐂𝐘𝐁𝜩𝐑│𝐒𝜟𝐂𝐇𝐈𝐘𝐀      🐼//
+
+
+
+
 const { modul } = require('./module');
 const { baileys, boom, chalk, fs, figlet, FileType, path, process, PhoneNumber } = modul;
 const { Boom } = boom
