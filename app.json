@@ -2,7 +2,7 @@
   "name": "CYBER-PANDA-WHATSAPP-BOT",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "logo": "https://ibb.co/XbVwdym",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
