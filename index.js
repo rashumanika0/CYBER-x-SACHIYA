@@ -103,11 +103,11 @@ try{
 			} else XeonBotInc.end(`Unknown DisconnectReason: ${reason}|${connection}`)
 		}
 		if (update.connection == "connecting" || update.receivedPendingNotifications == "false") {
-			console.log(color(`\n🌿Connecting...`, 'yellow'))
+			console.log(color(`\n🐼බොට් වැඩ WhatsApp එකට ගිහිල්ලා බලන්න🪀.`, 'yellow'))
 		}
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
 			console.log(color(` `,'magenta'))
-            console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
+            console.log(color(`🐼බොට් වැඩ WhatsApp එකට ගිහිල්ලා බලන්න🪀 => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
 			await delay(1999)
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
@@ -231,16 +231,16 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「  @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+                xeonbody = `  ╭━━━━━━━━━━━━━━━━━━━━━⦁
+  |  *🐼𝙲𝚈𝙱𝙴𝚁 𝙿𝙰𝙽𝙳𝙰 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🐼*
+╭╰━━━━━━━━━━━━━━━━━━━━━⦁
+│✑  𝘞𝘌𝘓𝘊𝘖𝘔𝘌 𝘛𝘖 
+│✑  ❤️⃟⃟◍̸̸̸̸̣̣̣❀ＣＹＢＥＲ-ＰＡＮＤＡ-ＭＤ🌹⃝✥⃟☺️᭄ꦿ
+│✑  𝘔𝘌𝘔𝘉𝘌𝘙 : 
+│✑ 41th
+│✑  𝘑𝘖𝘐𝘕𝘌𝘋 : 
+│✑ 07:05:32 28/10/2023
+╰━━━━━━━━━━━━━━━━━━━━━⦁`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -259,16 +259,16 @@ XeonBotInc.sendMessage(anu.id,
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
-   │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+                    xeonbody = `  ╭━━━━━━━━━━━━━━━━━━━━━⦁
+  |  *🐼𝙲𝚈𝙱𝙴𝚁 𝙿𝙰𝙽𝙳𝙰 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🐼*
+╭╰━━━━━━━━━━━━━━━━━━━━━⦁
+│✑  𝘉𝘠𝘌 𝘉𝘙𝘖𝘖
+│✑  ❤️⃟⃟◍̸̸̸̸̣̣̣❀ＣＹＢＥＲ-ＰＡＮＤＡ-ＭＤ🌹⃝✥⃟☺️᭄ꦿ
+│✑  𝘔𝘌𝘔𝘉𝘌𝘙 : 
+│✑ 41th
+│✑  𝘑𝘖𝘐𝘕𝘌𝘋 : 
+│✑ 07:05:32 28/10/2023
+╰━━━━━━━━━━━━━━━━━━━━━⦁`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
