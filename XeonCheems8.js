@@ -1530,8 +1530,7 @@ case 'sl': case 'panel': case 'list': case 'menu': case 'help': case 'panda': {
 ╭━━━━━━━━━━━━━━━━━━━━━⦁
  |*🐼𝙲𝚈𝙱𝙴𝚁 𝙿𝙰𝙽𝙳𝙰 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🐼*
 ╰━━━━━━━━━━━━━━━━━━━━━⦁`
-            let ments = [ownernya, me, mark]  
-	    m.react('🕗')
+            let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
 contextInfo:{
@@ -1545,8 +1544,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": ``,
-"sourceUrl": ``
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
 }
 }
 }, { quoted: m })
@@ -1566,8 +1565,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": ``,
-"sourceUrl": ``
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1587,8 +1586,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": ``,
-"sourceUrl": ``
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1608,8 +1607,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": ``,
-"sourceUrl": ``
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1629,8 +1628,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": ``,
-"sourceUrl": ``
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1650,8 +1649,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": ``,
-"sourceUrl": ``
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
 }
 }
 })
