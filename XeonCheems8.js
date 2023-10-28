@@ -1484,10 +1484,9 @@ contacts: list }, mentions: [sender] }, { quoted: m })
 XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
 }
 break
-case 'list': case 'menu': case 'panda': {
+case 'list': case 'menu': {
 	        let ownernya = ownernomer + '@s.whatsapp.net'
-            let me = m.sender
-            m.react('🐼')
+            let me = m.react('👻')
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `
