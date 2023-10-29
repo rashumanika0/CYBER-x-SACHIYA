@@ -2,11 +2,11 @@ const chalk = require("chalk")
 const fs = require("fs")
 
 //aumto presence update
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 global.autoblockmorroco = false //auto block 212 (true to on, false to off)
 global.autokickmorroco = false //auto kick 212 (true to on, false to off) 
-global.antispam = false //auto kick spammer (true to on, false to off)
+global.antispam = true //auto kick spammer (true to on, false to off)
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
@@ -21,27 +21,27 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['+94704274987'] //ur owner number
-global.ownernomer = "+94704274987" //ur owner number2
-global.ownername = "SACHIYA" //ur owner name
-global.ytname = "YT: SACHIYA" //ur yt chanel name
+global.owner = ['+94779122081'] //ur owner number
+global.ownernomer = "+94779122081" //ur owner number2
+global.ownername = "NR-RASHU-MODZ" //ur owner name
+global.ytname = "YT: NR RASHU MODZ" //ur yt chanel name
 global.socialm = "GitHub: https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA" //ur github or insta name
 global.location = "SRI LANKA" //ur location
 
 //new
-global.botname = "ＣＹＢＥＲ-ＰＡＮＤＡ-ＭＤ"
-global.ownernumber = '+94704274987'
-global.ownername = 'SACHIYA'
-global.ownerNumber = ["+94704274987@s.whatsapp.net"]
+global.botname = "N R-R A S H U-M O D Z"
+global.ownernumber = '+94779122081'
+global.ownername = 'NR-RASHU-MODZ'
+global.ownerNumber = ["+94779122081@s.whatsapp.net"]
 global.ownerweb = "https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA"
 global.websitex = "https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA"
 global.wagc = ""
 global.themeemoji = '🐼'
 global.wm = "🪀"
 global.botscript = 'https://github.com/CYBER-x-SACHIYA/CYBER-x-SACHIYA' //script link
-global.packname = "ＣＹＢＥＲ-ＰＡＮＤＡ-ＭＤ"
+global.packname = "NR RASHU MODZ"
 global.author = "SACHIYA\n\n"
-global.creator = "+94704274987@s.whatsapp.net"
+global.creator = "+94779122081@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
